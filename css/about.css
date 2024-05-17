@@ -1,0 +1,57 @@
+/* TITLE & TEXT STYLING */
+
+.container-about {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.about-content h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.about-content p {
+  font-family: "Courier Prime", monospace;
+  font-size: 1.1rem;
+  margin-top: 4rem;
+}
+
+/* TOOLKIT STYLING */
+
+.about-toolkit {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.about-toolkit h3{
+  font-size: 1.5rem;
+}
+
+/* ICON & IMG STYLING */
+
+.flex-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 70px;
+}
+
+.flex-icon img {
+  width: 60px;
+}
+
+.flex-icon p {
+  font-family: "Courier Prime", monospace;
+  padding: 0.1rem 0.5rem;
+  box-shadow: 0 4px 6pc rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+}
