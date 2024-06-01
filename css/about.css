@@ -17,12 +17,18 @@
 .about-content p {
   font-family: "Courier Prime", monospace;
   font-size: 1.1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 /* TOOLKIT STYLING */
 
 .about-toolkit {
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -45,7 +51,7 @@
 }
 
 .flex-icon img {
-  width: 60px;
+  width: 50px;
 }
 
 .flex-icon p {
@@ -54,4 +60,9 @@
   box-shadow: 0 4px 6pc rgba(0, 0, 0, 0.4);
   border-radius: 0.4rem;
   margin-top: 1rem;
+}
+
+.links {
+  font-size: 18px;
+  color: var(--Highlight-color);
 }
