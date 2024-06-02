@@ -1,3 +1,229 @@
-@media (max-width: 500px) {
+/* HAMBURGER BUTTON */
+.hamburger-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* padding: 10px; */
+  z-index: 1000;
+}
+
+.hamburger-button .hamburger-line {
+  width: 30px;
+  height: 3px;
+  background: #313131;
+  margin: 6px 0;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 200px;
+  height: 100%;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease-in-out;
+}
+
+.mobile-menu.active {
+  left: 0;
+}
+
+.mobile-menu ul {
+  margin-top: 130px;
+  padding-left: 20px;
+}
+
+.mobile-menu ul li {
+  margin: 8px 0;
+}
+
+.mobile-menu ul li a {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.mobile-menu .social-mobile ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu .social-mobile ul a {
+  padding: 0 10px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 960px) {
   
+}
+
+@media (max-width: 670px) {
+  
+}
+
+@media (max-width: 500px) {
+  .navbar .main-menu, .social {
+    display: none;
+  }
+
+  .navbar .hamburger-button, .social-mobile {
+    display: block;
+  }
+
+  body {
+    height: 100vh;
+  }
+  
+  /* Logo */
+  
+  .logo h1 a {
+    font-family: "Climate Crisis", sans-serif;
+    font-size: 20px;
+    color: var(--NavbarButton-color);
+  }
+
+  .logo h1 a, i {
+    padding-right: 40px;
+  }
+  
+    /* HERO SECTION STYLING |INDEX.HTML| */
+  
+  .container-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text {
+    padding-top: 12rem;
+  }
+  
+  .hero-text h1, h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    /* padding: 5px; */
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .tag p {
+    font-size: 18px;
+  }
+  
+  .tag i {
+    margin-left: 10px;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0;
+  }
+  
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-info p {
+    padding-top: 12px;
+  }
+  
+  .footer-info .email ul {
+    margin-left: 2rem;
+  }
+  
+  .footer-info .email ul {
+    display: flex;
+  }
+  
+  .footer-info .email ul li {
+    font-size: 15px;
+  }
+
+  .footer-info .email ul li i {
+    padding-right: 2px;
+  }
+
+  /* ABOUT STYLING */
+  .about {
+    padding-top: 6rem;
+  }
+
+  .about-content h1 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .about-content p {
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  /* TOOLKIT STYLING */
+
+.about-toolkit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.about-toolkit h3 {
+  font-size: 1.6rem;
+  color: #313131;
+}
+
+.about-icons {
+  display: inline-grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: start;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+/* CONTACT STYLING */
+.contact {
+  padding-top: 6rem;
+}
+
+.contact-content h1 {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.contact-content p {
+  width: 100%;
+  text-align: center;
+}
+
+/* textarea styling */
+
+textarea {
+  width: 100%;
+  height: 9rem;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  background-color: #f8f8f8;
+  resize: vertical;
+}
+
 }

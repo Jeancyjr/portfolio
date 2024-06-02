@@ -1,5 +1,9 @@
 /* TITLE & TEXT STYLING */
 
+.about {
+  padding-top: 12rem;
+}
+
 .container-about {
   max-width: 1220px;
   margin: 0 auto;
@@ -23,21 +27,23 @@
 /* TOOLKIT STYLING */
 
 .about-toolkit {
-  /* display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 4rem;
+  text-align: center;
+  padding-top: 4rem;
 }
 
-.about-toolkit h3{
-  font-size: 1.5rem;
+.about-toolkit h3 {
+  font-size: 26px;
   color: #313131;
+}
+
+.about-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* justify-content: center;
+  align-items: center; */
 }
 
 /* ICON & IMG STYLING */

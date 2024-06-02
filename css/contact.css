@@ -1,5 +1,9 @@
 /* CONTACT PAGE STYLING */
 
+.contact {
+  padding-top: 12rem;
+}
+
 .container-contact {
   max-width: 1220px;
   margin: 0 auto;
