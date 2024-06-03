@@ -156,7 +156,7 @@ a {
 }
 
 .tag i:hover {
-  color: #C73969;
+  color: #01A6B0;
 }
 
 /* footer */
@@ -182,7 +182,7 @@ footer {
 }
 
 .email ul li i {
-  margin-right: 10px;
+  padding-right: 8px;
 }
 
 

@@ -65,6 +65,8 @@
   
 }
 
+/* MOBILE 500px MEDIA QUERY */
+
 @media (max-width: 500px) {
   .navbar .main-menu, .social {
     display: none;
@@ -77,153 +79,48 @@
   body {
     height: 100vh;
   }
-  
-  /* Logo */
-  
-  .logo h1 a {
-    font-family: "Climate Crisis", sans-serif;
-    font-size: 20px;
-    color: var(--NavbarButton-color);
-  }
 
-  .logo h1 a, i {
-    padding-right: 40px;
-  }
-  
-    /* HERO SECTION STYLING |INDEX.HTML| */
-  
-  .container-sm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
+  /* Logo */
+
+.logo h1 a {
+  font-family: "Climate Crisis", sans-serif;
+  font-size: 20px;
+  color: var(--NavbarButton-color);
+  padding-right: 30px;
+}
+
+.logo i {
+  padding-right: 10px;
+}
+
+  /* HERO SECTION STYLING */
+
   .hero-text {
     padding-top: 12rem;
   }
-  
+
   .hero-text h1, h2 {
-    font-size: 2.3rem;
-    font-weight: 700;
-    /* padding: 5px; */
-    line-height: 1.2;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1;
     text-align: center;
-    text-transform: uppercase;
   }
-  
-  .tag p {
-    font-size: 18px;
-  }
-  
-  .tag i {
-    margin-left: 10px;
-  }
-  
+
+
   /* FOOTER */
-  
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 30px 0;
-  }
-  
+
   .footer-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-  }
-  
-  .footer-info p {
-    padding-top: 12px;
-  }
-  
-  .footer-info .email ul {
-    margin-left: 2rem;
-  }
-  
-  .footer-info .email ul {
-    display: flex;
-  }
-  
-  .footer-info .email ul li {
-    font-size: 15px;
-  }
-
-  .footer-info .email ul li i {
-    padding-right: 2px;
-  }
-
-  /* ABOUT STYLING */
-  .about {
-    padding-top: 6rem;
-  }
-
-  .about-content h1 {
-    font-size: 2.3rem;
+    align-items: center;
     text-align: center;
   }
 
-  .about-content p {
-    text-align: center;
-    line-height: 1.6;
+  .footer-info p, .email ul li {
+    font-size: 12px;
+    padding: 4px 0;
   }
 
-  /* TOOLKIT STYLING */
-
-.about-toolkit {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-}
-
-.about-toolkit h3 {
-  font-size: 1.6rem;
-  color: #313131;
-}
-
-.about-icons {
-  display: inline-grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  justify-content: start;
-  align-items: start;
-  margin-top: 2rem;
-}
-
-/* CONTACT STYLING */
-.contact {
-  padding-top: 6rem;
-}
-
-.contact-content h1 {
-  font-size: 2.3rem;
-  text-align: center;
-}
-
-.contact-content p {
-  width: 100%;
-  text-align: center;
-}
-
-/* textarea styling */
-
-textarea {
-  width: 100%;
-  height: 9rem;
-  padding: 1.5rem;
-  font-size: 0.9rem;
-  border: 1px solid #ccc;
-  border-radius: 1rem;
-  background-color: #f8f8f8;
-  resize: vertical;
-}
-
+  
 }
