@@ -1,0 +1,75 @@
+/* TITLE & TEXT STYLING */
+
+.about {
+  padding-top: 12rem;
+}
+
+.container-about {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.about-content h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.about-content p {
+  font-family: "Courier Prime", monospace;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+/* TOOLKIT STYLING */
+
+.about-toolkit {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.about-toolkit h3 {
+  font-size: 26px;
+  color: #313131;
+}
+
+.about-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* justify-content: center;
+  align-items: center; */
+}
+
+/* ICON & IMG STYLING */
+
+.flex-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 70px;
+}
+
+.flex-icon img {
+  width: 50px;
+}
+
+.flex-icon p {
+  font-family: "Courier Prime", monospace;
+  padding: 0.1rem 0.5rem;
+  box-shadow: 0 4px 6pc rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+}
+
+.links {
+  font-size: 18px;
+  color: var(--Highlight-color);
+}

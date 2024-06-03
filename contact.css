@@ -1,0 +1,77 @@
+/* CONTACT PAGE STYLING */
+
+.contact {
+  padding-top: 12rem;
+}
+
+.container-contact {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.contact-content h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.contact-content p {
+  font-family: "Courier Prime", monospace;
+  font-size: 1.1rem;
+  width: 93%;
+  margin-top: 2rem;
+}
+
+/* textarea styling */
+
+textarea {
+  width: 100%;
+  height: 11rem;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  background-color: #f8f8f8;
+  resize: vertical;
+}
+
+/* Change border color on focus */
+
+textarea:focus {
+  border-color: var(--Highlight-color);
+  outline: none;
+}
+
+/* submit button styling */
+
+input[type="submit"] {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: var(--NavbarButton-color);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+  background: var(--Highlight-color);
+  padding: 0.5rem 3.5rem;
+  color: #fff;
+}
+
+/* submit button alignment */
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,126 @@
+/* HAMBURGER BUTTON */
+.hamburger-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* padding: 10px; */
+  z-index: 1000;
+}
+
+.hamburger-button .hamburger-line {
+  width: 30px;
+  height: 3px;
+  background: #313131;
+  margin: 6px 0;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 200px;
+  height: 100%;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease-in-out;
+}
+
+.mobile-menu.active {
+  left: 0;
+}
+
+.mobile-menu ul {
+  margin-top: 130px;
+  padding-left: 20px;
+}
+
+.mobile-menu ul li {
+  margin: 8px 0;
+}
+
+.mobile-menu ul li a {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.mobile-menu .social-mobile ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu .social-mobile ul a {
+  padding: 0 10px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 960px) {
+  
+}
+
+@media (max-width: 670px) {
+  
+}
+
+/* MOBILE 500px MEDIA QUERY */
+
+@media (max-width: 500px) {
+  .navbar .main-menu, .social {
+    display: none;
+  }
+
+  .navbar .hamburger-button, .social-mobile {
+    display: block;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  /* Logo */
+
+.logo h1 a {
+  font-family: "Climate Crisis", sans-serif;
+  font-size: 20px;
+  color: var(--NavbarButton-color);
+  padding-right: 30px;
+}
+
+.logo i {
+  padding-right: 10px;
+}
+
+  /* HERO SECTION STYLING */
+
+  .hero-text {
+    padding-top: 12rem;
+  }
+
+  .hero-text h1, h2 {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+  }
+
+
+  /* FOOTER */
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info p, .email ul li {
+    font-size: 12px;
+    padding: 4px 0;
+  }
+
+  
+}
