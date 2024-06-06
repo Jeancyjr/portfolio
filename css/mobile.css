@@ -84,9 +84,9 @@
 
 .logo h1 a {
   font-family: "Climate Crisis", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: var(--NavbarButton-color);
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 .logo i {
@@ -106,20 +106,149 @@
     text-align: center;
   }
 
+  .tag p {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  /* ABOUT STYLING */
+
+.about {
+  padding-top: 6rem;
+}
+
+.about-content h1 {
+  font-size: 42px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.about-content p {
+  font-family: "Courier Prime", monospace;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* ABOUT TOOLKIT STYLING */
+
+.about-toolkit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.about-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+/* ICON & IMG STYLING */
+
+.flex-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.flex-icon img {
+  width: 40px;
+}
+
+/* CONTACT PAGE STYLING */
+
+.contact {
+  padding-top: 6rem;
+}
+
+.container-contact {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.contact-content h1 {
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+}
+
+.contact-content p {
+  font-family: "Courier Prime", monospace;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* textarea styling */
+
+textarea {
+  width: 100%;
+  height: 9rem;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  background-color: #f8f8f8;
+  resize: vertical;
+}
+
+/* submit button styling */
+
+input[type="submit"] {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  padding: 0.4rem 3rem;
+  font-size: 14px;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: var(--NavbarButton-color);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: 0.5s;
+}
+
 
   /* FOOTER */
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(247, 247, 247, 0.5);
+  }
 
   .footer-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
   }
 
-  .footer-info p, .email ul li {
+  .footer-info p {
     font-size: 12px;
     padding: 4px 0;
+  }
+
+  .email ul li {
+    display: none;
   }
 
   

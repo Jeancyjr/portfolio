@@ -1,7 +1,7 @@
 /* CONTACT PAGE STYLING */
 
 .contact {
-  padding-top: 12rem;
+  padding-top: 13rem;
 }
 
 .container-contact {
@@ -52,8 +52,8 @@ input[type="submit"] {
   font-weight: 500;
   display: block;
   margin: 0 auto;
-  padding: 0.5rem 2.5rem;
-  font-size: 1rem;
+  padding: 0.4rem 3.4rem;
+  font-size: 16px;
   border: none;
   border-radius: 1.5rem;
   background-color: var(--NavbarButton-color);
@@ -65,7 +65,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background: var(--Highlight-color);
-  padding: 0.5rem 3.5rem;
+  padding: 0.4rem 4rem;
   color: #fff;
 }
 

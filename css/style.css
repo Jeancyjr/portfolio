@@ -17,10 +17,10 @@
 
 body {
   font-family: "Climate Crisis", sans-serif;
-  background: #FFFFFF;
+  background-color: #F7F7F7;
   background: url("/images/wallpaper.jpg") no-repeat center center/cover;
   height: 100vh;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .container {
@@ -125,7 +125,7 @@ a {
 } */
 
 .hero-text {
-  padding-top: 17rem;
+  padding-top: 18rem;
 }
 
 .hero-text h1, h2 {
